@@ -2,15 +2,31 @@ name: fastai
 channels:
     - fastai
     - pytorch
+    - conda-forge
     - defaults
 dependencies:
-  - python>=3.6
-  - pytorch>=1.6
-  - torchvision
-  - fastai=2.0.0
-  - ipython=7.17.0
-  - ipywidgets=7.5.1
+  - python=3.8.5=h1103e12_5_cpython
+  - pytorch=1.6.0=py3.8_cuda10.2.89_cudnn7.6.5_0
+  - torchvision=0.7.0=py38_cu102
+  - fastai=2.0.0=pyh39e3cac_0
+  - fastcore=1.0.0=pyh39e3cac_0
+  - fastprogress=1.0.0=py_0
+  - ipython=7.17.0=py38h1cdfbd6_0
+  - ipython=7.17.0=py38h1cdfbd6_0
+  - ipython_genutils=0.2.0=py_1
+  - ipywidgets=7.5.1=py_0
   - jupyter=1.0.0
+  - pillow=7.2.0=py38h9776b28_1
+  - scikit-learn=0.23.2=py38hee58b96_0
+  - scipy=1.5.2=py38h8c5af15_0
+  - pyyaml=5.3.1=py38h1e0a361_0
+  - graphite2=1.3.13=he1b5a44_1001
+  - pandas=1.1.0=py38h950e882_0
+  - graphviz=2.42.3=h0511662_0
+  - matplotlib=3.3.1=1
+  - cuda92=1.0=0
+  - requests
+  - jupyter=1.0.0=py_2
   - pip
   - pip:
     - -r file:requirements.txt
