@@ -8,6 +8,9 @@ dependencies:
   - pytorch>=1.6
   - torchvision
   - fastai=2.0.0
+  - ipython=7.17.0
+  - ipywidgets=7.5.1
+  - jupyter=1.0.0
   - pip
   - pip:
     - -r file:requirements.txt
