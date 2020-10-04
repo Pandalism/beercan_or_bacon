@@ -1,6 +1,6 @@
 name: fastbook
 channels:
-    - fastai
+    - fastai=2.0.0
     - pytorch
     - defaults
 dependencies:
