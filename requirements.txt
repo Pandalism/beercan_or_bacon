@@ -1,2 +1,3 @@
-voila==0.2.3
-fastai2==0.0.30
+fastai == 2.0.13
+voila
+ipywidgets
