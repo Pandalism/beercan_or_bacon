@@ -1,4 +1,4 @@
 fastai == 2.0.13
 fastcore == 1.2.4
-voila
+torch == 1.6.0
 ipywidgets
